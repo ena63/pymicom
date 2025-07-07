@@ -28,7 +28,7 @@ BAUDRATE = "38400"  # 9600, 19200, 38400, 57600, 115200
 # --- Exemple d’utilisation ---
 if __name__ == "__main__":
     
-    # Vérifier pa présence de l'exécutable
+    # Vérifier la présence de l'exécutable
     if not os.path.isfile(APP_FILE):
         raise FileNotFoundError(f"[ERROR] Exécutable introuvable: {APP_FILE}")
 
