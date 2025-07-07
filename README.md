@@ -19,5 +19,5 @@ AppMiCom_v2025 permet d'appeler MiCom.dll depuis la ligne de commande Windows
 import subprocess
 import pyperclip
 
-subprocess.run([AppMiCom_2025.exe,"BMAC","COM1","115200","00READ #POSITION"],shell=True)
+subprocess.run(["AppMiCom_2025.exe","BMAC","COM1","115200","00READ #POSITION"],shell=True)
 print(pyperclip.paste())
